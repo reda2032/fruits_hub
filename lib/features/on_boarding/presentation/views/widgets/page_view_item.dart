@@ -43,16 +43,20 @@ class PageviewItem extends StatelessWidget {
                   image,
                 ),
               ),
-              Visibility(
-                visible: isVisible,
-                child: GestureDetector(
-                  onTap: () {},
-                  child: Padding(
-                    padding: const EdgeInsets.all(16),
-                    child: Text(
-                      'تخط',
-                      style: AppTextStyles.regular13.copyWith(
-                        color: const Color(0xFF949D9E),
+              Positioned(
+                top: 20,
+                child: Visibility(
+                  visible: isVisible,
+                  child: GestureDetector(
+                    onTap: () {},
+                    child: Padding(
+                      padding: const EdgeInsets.all(16),
+                      child: Text(
+                        'تخط',
+                        style: AppTextStyles.regular13.copyWith(
+                          color: const Color(0xFF949D9E),
+                          fontWeight: FontWeight.bold,
+                        ),
                       ),
                     ),
                   ),
