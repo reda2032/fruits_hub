@@ -6,7 +6,11 @@ import '../../../../../core/utils/app_images.dart';
 import '../../../../../core/utils/app_text_styles.dart';
 
 class OnBoardingPageView extends StatelessWidget {
-  const OnBoardingPageView({super.key});
+  const OnBoardingPageView({
+    super.key,
+    required this.pageController,
+  });
+  final PageController pageController;
 
   @override
   Widget build(BuildContext context) {
