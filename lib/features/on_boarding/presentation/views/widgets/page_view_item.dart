@@ -4,6 +4,7 @@ import 'package:flutter/widgets.dart';
 import 'package:svg_flutter/svg.dart';
 
 import '../../../../../core/utils/app_text_styles.dart';
+import '../../../../auth/presentation/views/login_view.dart';
 
 class PageviewItem extends StatelessWidget {
   const PageviewItem({
@@ -48,7 +49,11 @@ class PageviewItem extends StatelessWidget {
                 child: Visibility(
                   visible: isVisible,
                   child: GestureDetector(
-                    onTap: () {},
+                    onTap: () {
+                      Navigator.of(context).pushReplacementNamed(
+                        LoginView.routeName,
+                      );
+                    },
                     child: Padding(
                       padding: const EdgeInsets.all(16),
                       child: Text(
