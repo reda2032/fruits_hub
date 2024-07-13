@@ -4,6 +4,7 @@ import 'package:flutter/widgets.dart';
 import 'package:fruits_hub/features/on_boarding/presentation/views/widgets/on_boarding_page_view.dart';
 
 import '../../../../../constants.dart';
+import '../../../../../core/services/shared_preferences_singleton.dart';
 import '../../../../../core/utils/app_colors.dart';
 import '../../../../../core/widgets/custom_button.dart';
 import '../../../../auth/presentation/views/login_view.dart';
@@ -65,6 +66,7 @@ class _OnBoardingViewBodyState extends State<OnBoardingViewBody> {
             ),
             child: CustomButton(
               onPressed: () {
+                Prefs.setBool(kIsOnBoardingViewSeen, true);
                 Navigator.of(context).pushReplacementNamed(
                   LoginView.routeName,
                 );
