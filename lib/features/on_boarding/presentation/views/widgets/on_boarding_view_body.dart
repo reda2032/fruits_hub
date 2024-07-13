@@ -17,14 +17,15 @@ class OnBoardingViewBody extends StatefulWidget {
 class _OnBoardingViewBodyState extends State<OnBoardingViewBody> {
   late PageController pageController;
   var currentPage = 0;
+
   @override
   void initState() {
-    super.initState();
     pageController = PageController();
     pageController.addListener(() {
       currentPage = pageController.page!.round();
       setState(() {});
     });
+    super.initState();
   }
 
   @override
@@ -46,15 +47,17 @@ class _OnBoardingViewBodyState extends State<OnBoardingViewBody> {
           dotsCount: 2,
           decorator: DotsDecorator(
             activeColor: AppColors.primaryColor,
-            color: AppColors.primaryColor.withOpacity(.5),
+            color: currentPage == 1
+                ? AppColors.primaryColor
+                : AppColors.primaryColor.withOpacity(.5),
           ),
         ),
         const SizedBox(height: 29.0),
         Visibility(
+          visible: currentPage == 1 ? true : false,
           maintainSize: true,
           maintainAnimation: true,
           maintainState: true,
-          visible: true,
           child: Padding(
             padding: const EdgeInsets.symmetric(
               horizontal: kHorizintalPadding,
