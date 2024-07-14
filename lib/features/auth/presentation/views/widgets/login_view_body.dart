@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:fruits_hub/constants.dart';
+import 'package:fruits_hub/features/auth/presentation/views/widgets/social_login_button.dart';
 
 import '../../../../../core/utils/app_colors.dart';
+import '../../../../../core/utils/app_images.dart';
 import '../../../../../core/utils/app_text_styles.dart';
 import '../../../../../core/widgets/custom_button.dart';
 import '../../../../../core/widgets/custom_text_field.dart';
@@ -64,6 +66,23 @@ class LoginViewBody extends StatelessWidget {
               const SizedBox(height: 33.0),
               const OrDivider(),
               const SizedBox(height: 16.0),
+              SocialLoginButton(
+                onPressed: () {},
+                image: AppImages.imagesGoogleIcon,
+                title: 'تسجيل بواسطة جوجل',
+              ),
+              const SizedBox(height: 16.0),
+              SocialLoginButton(
+                onPressed: () {},
+                image: AppImages.imagesApplIcon,
+                title: 'تسجيل بواسطة أبل',
+              ),
+              const SizedBox(height: 16.0),
+              SocialLoginButton(
+                onPressed: () {},
+                image: AppImages.imagesFacebookIcon,
+                title: 'تسجيل بواسطة فيسبوك',
+              ),
             ],
           ),
         ),
