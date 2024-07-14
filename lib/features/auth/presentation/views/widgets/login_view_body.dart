@@ -6,6 +6,7 @@ import '../../../../../core/utils/app_text_styles.dart';
 import '../../../../../core/widgets/custom_button.dart';
 import '../../../../../core/widgets/custom_text_field.dart';
 import 'dont_have_account_widget.dart';
+import 'or_divider.dart';
 
 class LoginViewBody extends StatelessWidget {
   const LoginViewBody({super.key});
@@ -61,6 +62,8 @@ class LoginViewBody extends StatelessWidget {
               //  dont have an account
               const DontHaveAnAccountWidget(),
               const SizedBox(height: 33.0),
+              const OrDivider(),
+              const SizedBox(height: 16.0),
             ],
           ),
         ),
