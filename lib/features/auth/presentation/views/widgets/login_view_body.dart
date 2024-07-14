@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:fruits_hub/constants.dart';
 
+import '../../../../../core/widgets/custom_text_field.dart';
+
 class LoginViewBody extends StatelessWidget {
   const LoginViewBody({super.key});
 
@@ -15,7 +17,25 @@ class LoginViewBody extends StatelessWidget {
           keyboardDismissBehavior: ScrollViewKeyboardDismissBehavior.onDrag,
           reverse: true,
           child: Column(
-            children: [],
+            children: [
+              SizedBox(height: 24.0),
+              //  emailAddress
+              CustomTextFormField(
+                hintText: 'البريد الالكتروني',
+                textInputType: TextInputType.emailAddress,
+              ),
+              SizedBox(height: 16.0),
+              //  password
+              CustomTextFormField(
+                suffixIcon: Icon(
+                  Icons.remove_red_eye,
+                  color: Color(0xffC9CECF),
+                ),
+                hintText: 'كلمة المرور',
+                textInputType: TextInputType.visiblePassword,
+              ),
+              SizedBox(height: 16.0),
+            ],
           ),
         ),
       ),
