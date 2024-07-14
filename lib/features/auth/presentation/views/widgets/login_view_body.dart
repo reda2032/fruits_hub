@@ -1,16 +1,20 @@
 import 'package:flutter/material.dart';
 import 'package:fruits_hub/constants.dart';
 
+import '../../../../../core/utils/app_colors.dart';
+import '../../../../../core/utils/app_text_styles.dart';
+import '../../../../../core/widgets/custom_button.dart';
 import '../../../../../core/widgets/custom_text_field.dart';
+import 'dont_have_account_widget.dart';
 
 class LoginViewBody extends StatelessWidget {
   const LoginViewBody({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const SingleChildScrollView(
+    return SingleChildScrollView(
       child: Padding(
-        padding: EdgeInsets.symmetric(
+        padding: const EdgeInsets.symmetric(
           horizontal: kHorizintalPadding,
         ),
         child: SingleChildScrollView(
@@ -18,15 +22,15 @@ class LoginViewBody extends StatelessWidget {
           reverse: true,
           child: Column(
             children: [
-              SizedBox(height: 24.0),
+              const SizedBox(height: 24.0),
               //  emailAddress
-              CustomTextFormField(
+              const CustomTextFormField(
                 hintText: 'البريد الالكتروني',
                 textInputType: TextInputType.emailAddress,
               ),
-              SizedBox(height: 16.0),
+              const SizedBox(height: 16.0),
               //  password
-              CustomTextFormField(
+              const CustomTextFormField(
                 suffixIcon: Icon(
                   Icons.remove_red_eye,
                   color: Color(0xffC9CECF),
@@ -34,7 +38,29 @@ class LoginViewBody extends StatelessWidget {
                 hintText: 'كلمة المرور',
                 textInputType: TextInputType.visiblePassword,
               ),
-              SizedBox(height: 16.0),
+              const SizedBox(height: 16.0),
+              //  forgot password
+              Row(
+                mainAxisAlignment: MainAxisAlignment.end,
+                children: [
+                  Text(
+                    'نسيت كلمة المرور؟',
+                    style: TextStyles.semiBold13.copyWith(
+                      color: AppColors.lightPrimaryColor,
+                    ),
+                  ),
+                ],
+              ),
+              const SizedBox(height: 33.0),
+              //  login button
+              CustomButton(
+                onPressed: () {},
+                text: 'تسجيل دخول',
+              ),
+              const SizedBox(height: 33.0),
+              //  dont have an account
+              const DontHaveAnAccountWidget(),
+              const SizedBox(height: 33.0),
             ],
           ),
         ),
