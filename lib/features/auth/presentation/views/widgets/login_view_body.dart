@@ -12,6 +12,8 @@ class LoginViewBody extends StatelessWidget {
           horizontal: kHorizintalPadding,
         ),
         child: SingleChildScrollView(
+          keyboardDismissBehavior: ScrollViewKeyboardDismissBehavior.onDrag,
+          reverse: true,
           child: Column(
             children: [],
           ),
