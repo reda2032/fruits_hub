@@ -28,17 +28,17 @@ class OnBoardingPageView extends StatelessWidget {
             children: [
               const Text(
                 'مرحبًا بك في',
-                style: AppTextStyles.bold23,
+                style: TextStyles.bold23,
               ),
               Text(
                 '  HUB',
-                style: AppTextStyles.bold23.copyWith(
+                style: TextStyles.bold23.copyWith(
                   color: AppColors.secondaryColor,
                 ),
               ),
               Text(
                 'Fruit',
-                style: AppTextStyles.bold23.copyWith(
+                style: TextStyles.bold23.copyWith(
                   color: AppColors.primaryColor,
                 ),
               ),

@@ -17,7 +17,7 @@ AppBar buildAppBar(context, {required String title}) {
     title: Text(
       title,
       textAlign: TextAlign.center,
-      style: AppTextStyles.bold19,
+      style: TextStyles.bold19,
     ),
   );
 }
