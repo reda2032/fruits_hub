@@ -1,5 +1,5 @@
 # fruits_hub
-# thank to Eng.Tharwat Samy
+# Thank to Eng.Tharwat Samy
 # https://www.udemy.com/course/flutter-firebase-build-your-own-e-commerce-app/?couponCode=LETSLEARNNOWPP
 
 Fruits Hub.
