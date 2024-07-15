@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:fruits_hub/features/auth/presentation/views/widgets/terms_and_conditions.dart';
 
 import '../../../../../constants.dart';
 import '../../../../../core/widgets/custom_text_field.dart';
+import '../../../../../core/widgets/password_field.dart';
 
 class SignupViewBody extends StatelessWidget {
   const SignupViewBody({super.key});
@@ -30,6 +32,16 @@ class SignupViewBody extends StatelessWidget {
               textInputType: TextInputType.emailAddress,
             ),
             const SizedBox(height: 16.0),
+            // password
+            PasswordField(
+              onSaved: (value) {},
+            ),
+            const SizedBox(height: 16.0),
+            // Terms And Conditions
+            TermsAndConditionsWidget(
+              onChanged: (value) {},
+            ),
+            const SizedBox(height: 30.0),
           ],
         ),
       ),
