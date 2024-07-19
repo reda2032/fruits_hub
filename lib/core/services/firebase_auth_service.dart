@@ -24,7 +24,8 @@ class FirebaseAuthService {
         throw CustomException(message: 'An error occurred. Please try again.');
       }
     } catch (e) {
-      throw CustomException(message: 'An error occurred. Please try again.');
+      throw CustomException(
+          message: 'An error occurred. Please try again later.');
     }
   }
 }
