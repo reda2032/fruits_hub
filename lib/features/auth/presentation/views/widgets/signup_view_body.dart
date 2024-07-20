@@ -3,6 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:fruits_hub/features/auth/presentation/views/widgets/terms_and_conditions.dart';
 
 import '../../../../../constants.dart';
+import '../../../../../core/helper_functions/build_error_bar.dart';
 import '../../../../../core/widgets/custom_button.dart';
 import '../../../../../core/widgets/custom_text_field.dart';
 import '../../../../../core/widgets/password_field.dart';
@@ -71,8 +72,18 @@ class _SignupViewBodyState extends State<SignupViewBody> {
                 onPressed: () {
                   if (formKey.currentState!.validate()) {
                     formKey.currentState!.save();
-                    context.read<SignupCubit>().createUserWithEmailAndPassword(
-                        email, password, userName);
+                    if (isTermsAccepted) {
+                      context
+                          .read<SignupCubit>()
+                          .createUserWithEmailAndPassword(
+                            email,
+                            password,
+                            userName,
+                          );
+                    } else {
+                      buildErrorBar(
+                          context, 'يجب عليك الموافقة على الشروط والإحكام');
+                    }
                   } else {
                     setState(() {
                       autovalidateMode = AutovalidateMode.always;
