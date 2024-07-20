@@ -10,8 +10,8 @@ import '../../../../../core/widgets/custom_text_field.dart';
 import 'dont_have_account_widget.dart';
 import 'or_divider.dart';
 
-class LoginViewBody extends StatelessWidget {
-  const LoginViewBody({super.key});
+class SigninViewBody extends StatelessWidget {
+  const SigninViewBody({super.key});
 
   @override
   Widget build(BuildContext context) {
