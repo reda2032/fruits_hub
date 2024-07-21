@@ -28,6 +28,8 @@ class _SigninViewBodyState extends State<SigninViewBody> {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
+      keyboardDismissBehavior: ScrollViewKeyboardDismissBehavior.onDrag,
+      reverse: true,
       child: Padding(
         padding: const EdgeInsets.symmetric(
           horizontal: kHorizintalPadding,
@@ -92,7 +94,9 @@ class _SigninViewBodyState extends State<SigninViewBody> {
                 const SizedBox(height: 16.0),
                 //  social login button Google
                 SocialLoginButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    context.read<SigninCubit>().signinWithGoogle();
+                  },
                   image: AppImages.imagesGoogleIcon,
                   title: 'تسجيل بواسطة جوجل',
                 ),
