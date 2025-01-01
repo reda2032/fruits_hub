@@ -9,6 +9,10 @@ class Assets {
   static const String helperFunctionsOnGenerateRoutes = 'lib/core/helper_functions/on_generate_routes.dart';
   static const String imagesAppIcon = 'assets/images/app_icon.png';
   static const String imagesLogo = 'assets/images/logo.svg';
+  static const String imagesPageViewItem1BackgroundImage = 'assets/images/page_view_item1_background_image.svg';
+  static const String imagesPageViewItem1Image = 'assets/images/page_view_item1_image.svg';
+  static const String imagesPageViewItem2BackgroundImage = 'assets/images/page_view_item2_background_image.svg';
+  static const String imagesPageViewItem2Image = 'assets/images/page_view_item2_image.svg';
   static const String imagesPlant = 'assets/images/plant.svg';
   static const String imagesSplashBottom = 'assets/images/splash_bottom.svg';
   static const String libFruitHub = 'lib/fruit_hub.dart';
@@ -19,11 +23,18 @@ class Assets {
   static const String presentationViewsSplashView = 'lib/features/splash/presentation/views/splash_view.dart~';
   static const String viewsOnBoardingView = 'lib/features/on_boarding/presentation/views/on_boarding_view.dart';
   static const String viewsSplashView = 'lib/features/splash/presentation/views/splash_view.dart';
+  static const String viewsWidgetsOnBoardingPageView =
+      'lib/features/on_boarding/presentation/views/widgets/on_boarding_page_view.dart~';
+  static const String viewsWidgetsOnBoardingViewBody =
+      'lib/features/on_boarding/presentation/views/widgets/on_boarding_view_body.dart~';
+  static const String viewsWidgetsPageViewItem =
+      'lib/features/on_boarding/presentation/views/widgets/page_view_item.dart~';
   static const String viewsWidgetsSplashViewBody =
       'lib/features/splash/presentation/views/widgets/splash_view_body.dart~';
-  static const String widgetsOnBoardingPageview =
+  static const String widgetsOnBoardingPageView =
       'lib/features/on_boarding/presentation/views/widgets/on_boarding_page_view.dart';
   static const String widgetsOnBoardingViewBody =
       'lib/features/on_boarding/presentation/views/widgets/on_boarding_view_body.dart';
+  static const String widgetsPageViewItem = 'lib/features/on_boarding/presentation/views/widgets/page_view_item.dart';
   static const String widgetsSplashViewBody = 'lib/features/splash/presentation/views/widgets/splash_view_body.dart';
 }
