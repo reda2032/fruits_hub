@@ -14,10 +14,16 @@ class Assets {
   static const String libFruitHub = 'lib/fruit_hub.dart';
   static const String libGeneratedAssets = 'lib/generated/assets.dart~';
   static const String libMain = 'lib/main.dart';
+  static const String presentationViewsOnBoardingView =
+      'lib/features/on_boarding/presentation/views/on_boarding_view.dart~';
   static const String presentationViewsSplashView = 'lib/features/splash/presentation/views/splash_view.dart~';
   static const String viewsOnBoardingView = 'lib/features/on_boarding/presentation/views/on_boarding_view.dart';
   static const String viewsSplashView = 'lib/features/splash/presentation/views/splash_view.dart';
   static const String viewsWidgetsSplashViewBody =
       'lib/features/splash/presentation/views/widgets/splash_view_body.dart~';
+  static const String widgetsOnBoardingPageview =
+      'lib/features/on_boarding/presentation/views/widgets/on_boarding_page_view.dart';
+  static const String widgetsOnBoardingViewBody =
+      'lib/features/on_boarding/presentation/views/widgets/on_boarding_view_body.dart';
   static const String widgetsSplashViewBody = 'lib/features/splash/presentation/views/widgets/splash_view_body.dart';
 }
