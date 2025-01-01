@@ -3,11 +3,15 @@ import 'package:fruits_hub/features/on_boarding/presentation/views/widgets/on_bo
 
 class OnBoardingView extends StatelessWidget {
   const OnBoardingView({super.key});
+
   static const String routeName = 'onBoardingView';
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: OnBoardingViewBody(),
+      body: SafeArea(
+        child: OnBoardingViewBody(),
+      ),
     );
   }
 }
