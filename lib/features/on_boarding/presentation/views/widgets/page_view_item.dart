@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:fruits_hub/core/utils/app_text_styles.dart';
 
 class PageviewItem extends StatelessWidget {
   const PageviewItem({
@@ -52,6 +53,9 @@ class PageviewItem extends StatelessWidget {
                       visible: isVisible,
                       child: Text(
                         'تخط',
+                        style: TextStyles.regular13.copyWith(
+                          color: const Color(0xFF949D9E),
+                        ),
                       ),
                     ),
                   ),

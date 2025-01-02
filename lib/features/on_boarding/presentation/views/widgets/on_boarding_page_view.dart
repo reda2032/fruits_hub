@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:fruits_hub/features/on_boarding/presentation/views/widgets/page_view_item.dart';
 import 'package:fruits_hub/generated/assets.dart';
 
+import '../../../../../core/utils/app_colors.dart';
+import '../../../../../core/utils/app_text_styles.dart';
+
 class OnBoardingPageview extends StatelessWidget {
   const OnBoardingPageview({
     super.key,
@@ -26,12 +29,19 @@ class OnBoardingPageview extends StatelessWidget {
             children: [
               const Text(
                 'مرحبًا بك في',
+                style: TextStyles.bold23,
               ),
               Text(
                 '  HUB',
+                style: TextStyles.bold23.copyWith(
+                  color: AppColors.secondaryColor,
+                ),
               ),
               Text(
                 'Fruit',
+                style: TextStyles.bold23.copyWith(
+                  color: AppColors.primaryColor,
+                ),
               ),
             ],
           ),
@@ -53,7 +63,7 @@ class OnBoardingPageview extends StatelessWidget {
               height: 0,
             ),
           ),
-        )
+        ),
       ],
     );
   }
