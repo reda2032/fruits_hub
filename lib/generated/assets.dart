@@ -6,6 +6,7 @@ class Assets {
   static const String fruitsHubLibFruitHub = 'lib/fruit_hub.dart~';
   static const String fruitsHubLibMain = 'lib/main.dart~';
   static const String generatedAssets = 'lib/generated/assets.dart';
+  static const String generatedL10n = 'lib/generated/l10n.dart';
   static const String helperFunctionsOnGenerateRoutes = 'lib/core/helper_functions/on_generate_routes.dart';
   static const String imagesAppIcon = 'assets/images/app_icon.png';
   static const String imagesLogo = 'assets/images/logo.svg';
@@ -15,12 +16,18 @@ class Assets {
   static const String imagesPageViewItem2Image = 'assets/images/page_view_item2_image.svg';
   static const String imagesPlant = 'assets/images/plant.svg';
   static const String imagesSplashBottom = 'assets/images/splash_bottom.svg';
+  static const String intlMessagesAll = 'lib/generated/intl/messages_all.dart';
+  static const String intlMessagesAr = 'lib/generated/intl/messages_ar.dart';
+  static const String intlMessagesEn = 'lib/generated/intl/messages_en.dart';
+  static const String l10nIntlAr = 'lib/l10n/intl_ar.arb';
+  static const String l10nIntlEn = 'lib/l10n/intl_en.arb';
   static const String libFruitHub = 'lib/fruit_hub.dart';
   static const String libGeneratedAssets = 'lib/generated/assets.dart~';
   static const String libMain = 'lib/main.dart';
   static const String presentationViewsOnBoardingView =
       'lib/features/on_boarding/presentation/views/on_boarding_view.dart~';
   static const String presentationViewsSplashView = 'lib/features/splash/presentation/views/splash_view.dart~';
+  static const String utilsAppColors = 'lib/core/utils/app_colors.dart';
   static const String viewsOnBoardingView = 'lib/features/on_boarding/presentation/views/on_boarding_view.dart';
   static const String viewsSplashView = 'lib/features/splash/presentation/views/splash_view.dart';
   static const String viewsWidgetsOnBoardingPageView =
