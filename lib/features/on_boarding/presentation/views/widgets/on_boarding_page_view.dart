@@ -2,8 +2,30 @@ import 'package:flutter/material.dart';
 import 'package:fruits_hub/features/on_boarding/presentation/views/widgets/page_view_item.dart';
 import 'package:fruits_hub/generated/assets.dart';
 
-class OnBoardingPageview extends StatelessWidget {
+class OnBoardingPageview extends StatefulWidget {
   const OnBoardingPageview({super.key});
+
+  @override
+  State<OnBoardingPageview> createState() => _OnBoardingPageviewState();
+}
+
+class _OnBoardingPageviewState extends State<OnBoardingPageview> {
+  late PageController pageController;
+  var currentPage = 0;
+  @override
+  void initState() {
+    pageController = PageController();
+    pageController.addListener(() {
+      currentPage = pageController.page!.round();
+    });
+    super.initState();
+  }
+
+  @override
+  void dispose() {
+    pageController.dispose();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
