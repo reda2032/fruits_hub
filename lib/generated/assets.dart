@@ -3,6 +3,7 @@ class Assets {
   Assets._();
 
   static const String coreHelperFunctionsOnGenerateRoutes = 'lib/core/helper_functions/on_generate_routes.dart~';
+  static const String coreWidgetsCustomButton = 'lib/core/widgets/custom_button.dart~';
   static const String fruitsHubLibFruitHub = 'lib/fruit_hub.dart~';
   static const String fruitsHubLibMain = 'lib/main.dart~';
   static const String generatedAssets = 'lib/generated/assets.dart';
@@ -21,6 +22,7 @@ class Assets {
   static const String intlMessagesEn = 'lib/generated/intl/messages_en.dart';
   static const String l10nIntlAr = 'lib/l10n/intl_ar.arb';
   static const String l10nIntlEn = 'lib/l10n/intl_en.arb';
+  static const String libConstants = 'lib/constants.dart';
   static const String libFruitHub = 'lib/fruit_hub.dart';
   static const String libGeneratedAssets = 'lib/generated/assets.dart~';
   static const String libMain = 'lib/main.dart';
@@ -38,6 +40,7 @@ class Assets {
       'lib/features/on_boarding/presentation/views/widgets/page_view_item.dart~';
   static const String viewsWidgetsSplashViewBody =
       'lib/features/splash/presentation/views/widgets/splash_view_body.dart~';
+  static const String widgetsCustomButton = 'lib/core/widgets/custom_button.dart';
   static const String widgetsOnBoardingPageView =
       'lib/features/on_boarding/presentation/views/widgets/on_boarding_page_view.dart';
   static const String widgetsOnBoardingViewBody =
