@@ -31,18 +31,22 @@ class Assets {
   static const String libFruitHub = 'lib/fruit_hub.dart';
   static const String libGeneratedAssets = 'lib/generated/assets.dart~';
   static const String libMain = 'lib/main.dart';
+  static const String presentationViewsLoginView = 'lib/features/auth/presentation/views/login_view.dart~';
   static const String presentationViewsOnBoardingView =
       'lib/features/on_boarding/presentation/views/on_boarding_view.dart~';
   static const String presentationViewsSplashView = 'lib/features/splash/presentation/views/splash_view.dart~';
+  static const String servicesSharedPreferencesSingleton = 'lib/core/services/shared_preferences_singleton.dart';
   static const String utilsAppColors = 'lib/core/utils/app_colors.dart';
   static const String utilsAppTextStyles = 'lib/core/utils/app_text_styles.dart';
+  static const String viewsLoginView = 'lib/features/auth/presentation/views/login_view.dart';
   static const String viewsOnBoardingView = 'lib/features/on_boarding/presentation/views/on_boarding_view.dart';
-  static const String viewsSigninView = 'lib/features/auth/presentation/views/login_view.dart';
   static const String viewsSplashView = 'lib/features/splash/presentation/views/splash_view.dart';
   static const String viewsWidgetsOnBoardingPageView =
       'lib/features/on_boarding/presentation/views/widgets/on_boarding_page_view.dart~';
   static const String viewsWidgetsOnBoardingViewBody =
       'lib/features/on_boarding/presentation/views/widgets/on_boarding_view_body.dart~';
+  static const String viewsWidgetsPageViewItem =
+      'lib/features/on_boarding/presentation/views/widgets/page_view_item.dart~';
   static const String viewsWidgetsSplashViewBody =
       'lib/features/splash/presentation/views/widgets/splash_view_body.dart~';
   static const String widgetsCustomButton = 'lib/core/widgets/custom_button.dart';
