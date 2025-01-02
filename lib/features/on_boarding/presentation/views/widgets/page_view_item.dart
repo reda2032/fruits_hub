@@ -48,8 +48,11 @@ class PageviewItem extends StatelessWidget {
                   onTap: () {},
                   child: Padding(
                     padding: const EdgeInsets.all(16),
-                    child: Text(
-                      'تخط',
+                    child: Visibility(
+                      visible: isVisible,
+                      child: Text(
+                        'تخط',
+                      ),
                     ),
                   ),
                 ),

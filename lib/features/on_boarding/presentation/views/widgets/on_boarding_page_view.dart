@@ -2,34 +2,18 @@ import 'package:flutter/material.dart';
 import 'package:fruits_hub/features/on_boarding/presentation/views/widgets/page_view_item.dart';
 import 'package:fruits_hub/generated/assets.dart';
 
-class OnBoardingPageview extends StatefulWidget {
-  const OnBoardingPageview({super.key});
+class OnBoardingPageview extends StatelessWidget {
+  const OnBoardingPageview({
+    super.key,
+    required this.pageController,
+  });
 
-  @override
-  State<OnBoardingPageview> createState() => _OnBoardingPageviewState();
-}
-
-class _OnBoardingPageviewState extends State<OnBoardingPageview> {
-  late PageController pageController;
-  var currentPage = 0;
-  @override
-  void initState() {
-    pageController = PageController();
-    pageController.addListener(() {
-      currentPage = pageController.page!.round();
-    });
-    super.initState();
-  }
-
-  @override
-  void dispose() {
-    pageController.dispose();
-    super.dispose();
-  }
+  final PageController pageController;
 
   @override
   Widget build(BuildContext context) {
     return PageView(
+      controller: pageController,
       children: [
         PageviewItem(
           isVisible: true,
@@ -53,7 +37,7 @@ class _OnBoardingPageviewState extends State<OnBoardingPageview> {
           ),
         ),
         PageviewItem(
-          isVisible: true,
+          isVisible: false,
           image: Assets.imagesPageViewItem2Image,
           backgroundImage: Assets.imagesPageViewItem2BackgroundImage,
           subtitle:
