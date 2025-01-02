@@ -37,6 +37,7 @@ class Assets {
   static const String utilsAppColors = 'lib/core/utils/app_colors.dart';
   static const String utilsAppTextStyles = 'lib/core/utils/app_text_styles.dart';
   static const String viewsOnBoardingView = 'lib/features/on_boarding/presentation/views/on_boarding_view.dart';
+  static const String viewsSigninView = 'lib/features/auth/presentation/views/login_view.dart';
   static const String viewsSplashView = 'lib/features/splash/presentation/views/splash_view.dart';
   static const String viewsWidgetsOnBoardingPageView =
       'lib/features/on_boarding/presentation/views/widgets/on_boarding_page_view.dart~';
