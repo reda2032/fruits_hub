@@ -4,6 +4,10 @@ class Assets {
 
   static const String coreHelperFunctionsOnGenerateRoutes = 'lib/core/helper_functions/on_generate_routes.dart~';
   static const String coreWidgetsCustomButton = 'lib/core/widgets/custom_button.dart~';
+  static const String fontsCairoBold = 'assets/fonts/Cairo-Bold.ttf';
+  static const String fontsCairoMedium = 'assets/fonts/Cairo-Medium.ttf';
+  static const String fontsCairoRegular = 'assets/fonts/Cairo-Regular.ttf';
+  static const String fontsCairoSemiBold = 'assets/fonts/Cairo-SemiBold.ttf';
   static const String fruitsHubLibConstants = 'lib/constants.dart~';
   static const String fruitsHubLibFruitHub = 'lib/fruit_hub.dart~';
   static const String fruitsHubLibMain = 'lib/main.dart~';
@@ -38,8 +42,6 @@ class Assets {
       'lib/features/on_boarding/presentation/views/widgets/on_boarding_page_view.dart~';
   static const String viewsWidgetsOnBoardingViewBody =
       'lib/features/on_boarding/presentation/views/widgets/on_boarding_view_body.dart~';
-  static const String viewsWidgetsPageViewItem =
-      'lib/features/on_boarding/presentation/views/widgets/page_view_item.dart~';
   static const String viewsWidgetsSplashViewBody =
       'lib/features/splash/presentation/views/widgets/splash_view_body.dart~';
   static const String widgetsCustomButton = 'lib/core/widgets/custom_button.dart';
