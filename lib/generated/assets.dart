@@ -4,6 +4,7 @@ class Assets {
 
   static const String coreHelperFunctionsOnGenerateRoutes = 'lib/core/helper_functions/on_generate_routes.dart~';
   static const String coreWidgetsCustomButton = 'lib/core/widgets/custom_button.dart~';
+  static const String fruitsHubLibConstants = 'lib/constants.dart~';
   static const String fruitsHubLibFruitHub = 'lib/fruit_hub.dart~';
   static const String fruitsHubLibMain = 'lib/main.dart~';
   static const String generatedAssets = 'lib/generated/assets.dart';
@@ -30,6 +31,7 @@ class Assets {
       'lib/features/on_boarding/presentation/views/on_boarding_view.dart~';
   static const String presentationViewsSplashView = 'lib/features/splash/presentation/views/splash_view.dart~';
   static const String utilsAppColors = 'lib/core/utils/app_colors.dart';
+  static const String utilsAppTextStyles = 'lib/core/utils/app_text_styles.dart';
   static const String viewsOnBoardingView = 'lib/features/on_boarding/presentation/views/on_boarding_view.dart';
   static const String viewsSplashView = 'lib/features/splash/presentation/views/splash_view.dart';
   static const String viewsWidgetsOnBoardingPageView =
