@@ -43,6 +43,8 @@ class Assets {
   static const String viewsLoginView = 'lib/features/auth/presentation/views/login_view.dart';
   static const String viewsOnBoardingView = 'lib/features/on_boarding/presentation/views/on_boarding_view.dart';
   static const String viewsSplashView = 'lib/features/splash/presentation/views/splash_view.dart';
+  static const String viewsWidgetsDontHaveAccountWidget =
+      'lib/features/splash/presentation/views/widgets/dont_have_account_widget.dart~';
   static const String viewsWidgetsLoginViewBody = 'lib/features/auth/presentation/views/widgets/login_view_body.dart~';
   static const String viewsWidgetsOnBoardingPageView =
       'lib/features/on_boarding/presentation/views/widgets/on_boarding_page_view.dart~';
@@ -62,6 +64,7 @@ class Assets {
       'lib/features/on_boarding/presentation/views/widgets/on_boarding_page_view.dart';
   static const String widgetsOnBoardingViewBody =
       'lib/features/on_boarding/presentation/views/widgets/on_boarding_view_body.dart';
+  static const String widgetsOrDivider = 'lib/features/auth/presentation/views/widgets/or_divider.dart';
   static const String widgetsPageViewItem = 'lib/features/on_boarding/presentation/views/widgets/page_view_item.dart';
   static const String widgetsSplashViewBody = 'lib/features/splash/presentation/views/widgets/splash_view_body.dart';
 }
