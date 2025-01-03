@@ -65,6 +65,7 @@ class Assets {
       'lib/features/on_boarding/presentation/views/widgets/on_boarding_view_body.dart~';
   static const String viewsWidgetsPageViewItem =
       'lib/features/on_boarding/presentation/views/widgets/page_view_item.dart~';
+  static const String viewsWidgetsSignupView = 'lib/features/auth/presentation/views/widgets/signup_view.dart~';
   static const String viewsWidgetsSocialLoginButton =
       'lib/features/auth/presentation/views/widgets/social_login_button.dart~';
   static const String viewsWidgetsSplashViewBody =
@@ -73,7 +74,7 @@ class Assets {
   static const String widgetsCustomButton = 'lib/core/widgets/custom_button.dart';
   static const String widgetsCustomTextField = 'lib/core/widgets/custom_text_field.dart';
   static const String widgetsDontHaveAccountWidget =
-      'lib/features/splash/presentation/views/widgets/dont_have_account_widget.dart';
+      'lib/features/auth/presentation/views/widgets/dont_have_account_widget.dart';
   static const String widgetsLoginViewBody = 'lib/features/auth/presentation/views/widgets/login_view_body.dart';
   static const String widgetsOnBoardingPageView =
       'lib/features/on_boarding/presentation/views/widgets/on_boarding_page_view.dart';
@@ -81,6 +82,8 @@ class Assets {
       'lib/features/on_boarding/presentation/views/widgets/on_boarding_view_body.dart';
   static const String widgetsOrDivider = 'lib/features/auth/presentation/views/widgets/or_divider.dart';
   static const String widgetsPageViewItem = 'lib/features/on_boarding/presentation/views/widgets/page_view_item.dart';
+  static const String widgetsSignupView = 'lib/features/auth/presentation/views/widgets/signup_view.dart';
+  static const String widgetsSignupViewBody = 'lib/features/auth/presentation/views/widgets/signup_view_body.dart';
   static const String widgetsSocialLoginButton =
       'lib/features/auth/presentation/views/widgets/social_login_button.dart';
   static const String widgetsSplashViewBody = 'lib/features/splash/presentation/views/widgets/splash_view_body.dart';

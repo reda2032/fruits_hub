@@ -4,9 +4,9 @@ import 'package:fruits_hub/core/utils/app_colors.dart';
 import 'package:fruits_hub/core/utils/app_text_styles.dart';
 import 'package:fruits_hub/core/widgets/custom_button.dart';
 import 'package:fruits_hub/core/widgets/custom_text_field.dart';
+import 'package:fruits_hub/features/auth/presentation/views/widgets/dont_have_account_widget.dart';
 import 'package:fruits_hub/features/auth/presentation/views/widgets/or_divider.dart';
 import 'package:fruits_hub/features/auth/presentation/views/widgets/social_login_button.dart';
-import 'package:fruits_hub/features/splash/presentation/views/widgets/dont_have_account_widget.dart';
 import 'package:fruits_hub/generated/assets.dart';
 
 class LoginViewBody extends StatelessWidget {
