@@ -1,10 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:fruits_hub/constants.dart';
 import 'package:fruits_hub/core/utils/app_colors.dart';
 import 'package:fruits_hub/core/utils/app_text_styles.dart';
 import 'package:fruits_hub/core/widgets/custom_button.dart';
 import 'package:fruits_hub/core/widgets/custom_text_field.dart';
 import 'package:fruits_hub/features/auth/presentation/views/widgets/or_divider.dart';
+import 'package:fruits_hub/features/auth/presentation/views/widgets/social_login_button.dart';
 import 'package:fruits_hub/features/splash/presentation/views/widgets/dont_have_account_widget.dart';
+import 'package:fruits_hub/generated/assets.dart';
 
 class LoginViewBody extends StatelessWidget {
   const LoginViewBody({super.key});
@@ -13,7 +16,7 @@ class LoginViewBody extends StatelessWidget {
   Widget build(BuildContext context) {
     return SingleChildScrollView(
       child: Padding(
-        padding: const EdgeInsets.all(16.0),
+        padding: const EdgeInsets.all(kTopPaddding),
         child: Column(
           children: [
             // email
@@ -55,6 +58,27 @@ class LoginViewBody extends StatelessWidget {
             const SizedBox(height: 33.0),
             // or divider
             OrDivider(),
+            const SizedBox(height: 16.0),
+            // google button
+            SocialLoginButton(
+              onPressed: () {},
+              image: Assets.imagesGoogleIcon,
+              title: 'تسجيل بواسطة جوجل',
+            ),
+            const SizedBox(height: 16.0),
+            // apple button
+            SocialLoginButton(
+              onPressed: () {},
+              image: Assets.imagesApplIcon,
+              title: 'تسجيل بواسطة أبل',
+            ),
+            const SizedBox(height: 16.0),
+            // facebook button
+            SocialLoginButton(
+              onPressed: () {},
+              image: Assets.imagesFacebookIcon,
+              title: 'تسجيل بواسطة فيسبوك',
+            ),
             const SizedBox(height: 16.0),
           ],
         ),

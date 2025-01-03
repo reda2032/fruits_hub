@@ -17,13 +17,26 @@ class Assets {
   static const String generatedL10n = 'lib/generated/l10n.dart';
   static const String helperFunctionsOnGenerateRoutes = 'lib/core/helper_functions/on_generate_routes.dart';
   static const String imagesAppIcon = 'assets/images/app_icon.png';
+  static const String imagesApplIcon = 'assets/images/appl_icon.svg';
+  static const String imagesCheck = 'assets/images/Check.svg';
+  static const String imagesFacebookIcon = 'assets/images/facebook_icon.svg';
+  static const String imagesFeaturedItemBackground = 'assets/images/featured_item_background.svg';
+  static const String imagesFilter = 'assets/images/filter.svg';
+  static const String imagesFilter2 = 'assets/images/filter2.svg';
+  static const String imagesGoogleIcon = 'assets/images/google_icon.svg';
   static const String imagesLogo = 'assets/images/logo.svg';
+  static const String imagesNotification = 'assets/images/notification.svg';
   static const String imagesPageViewItem1BackgroundImage = 'assets/images/page_view_item1_background_image.svg';
   static const String imagesPageViewItem1Image = 'assets/images/page_view_item1_image.svg';
   static const String imagesPageViewItem2BackgroundImage = 'assets/images/page_view_item2_background_image.svg';
   static const String imagesPageViewItem2Image = 'assets/images/page_view_item2_image.svg';
   static const String imagesPlant = 'assets/images/plant.svg';
+  static const String imagesProfileImage = 'assets/images/profile_image.png';
+  static const String imagesSearchIcon = 'assets/images/search_icon.svg';
   static const String imagesSplashBottom = 'assets/images/splash_bottom.svg';
+  static const String imagesTrash = 'assets/images/trash.svg';
+  static const String imagesVector = 'assets/images/Vector.svg';
+  static const String imagesWatermelonTest = 'assets/images/watermelon_test.png';
   static const String intlMessagesAll = 'lib/generated/intl/messages_all.dart';
   static const String intlMessagesAr = 'lib/generated/intl/messages_ar.dart';
   static const String intlMessagesEn = 'lib/generated/intl/messages_en.dart';
@@ -52,6 +65,8 @@ class Assets {
       'lib/features/on_boarding/presentation/views/widgets/on_boarding_view_body.dart~';
   static const String viewsWidgetsPageViewItem =
       'lib/features/on_boarding/presentation/views/widgets/page_view_item.dart~';
+  static const String viewsWidgetsSocialLoginButton =
+      'lib/features/auth/presentation/views/widgets/social_login_button.dart~';
   static const String viewsWidgetsSplashViewBody =
       'lib/features/splash/presentation/views/widgets/splash_view_body.dart~';
   static const String widgetsCustomAppBar = 'lib/core/widgets/custom_app_bar.dart';
@@ -66,5 +81,7 @@ class Assets {
       'lib/features/on_boarding/presentation/views/widgets/on_boarding_view_body.dart';
   static const String widgetsOrDivider = 'lib/features/auth/presentation/views/widgets/or_divider.dart';
   static const String widgetsPageViewItem = 'lib/features/on_boarding/presentation/views/widgets/page_view_item.dart';
+  static const String widgetsSocialLoginButton =
+      'lib/features/auth/presentation/views/widgets/social_login_button.dart';
   static const String widgetsSplashViewBody = 'lib/features/splash/presentation/views/widgets/splash_view_body.dart';
 }
