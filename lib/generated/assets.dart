@@ -5,6 +5,7 @@ class Assets {
   static const String coreHelperFunctionsOnGenerateRoutes = 'lib/core/helper_functions/on_generate_routes.dart~';
   static const String coreWidgetsCustomAppBar = 'lib/core/widgets/custom_app_bar.dart~';
   static const String coreWidgetsCustomButton = 'lib/core/widgets/custom_button.dart~';
+  static const String coreWidgetsCustomTextField = 'lib/core/widgets/custom_text_field.dart~';
   static const String fontsCairoBold = 'assets/fonts/Cairo-Bold.ttf';
   static const String fontsCairoMedium = 'assets/fonts/Cairo-Medium.ttf';
   static const String fontsCairoRegular = 'assets/fonts/Cairo-Regular.ttf';
@@ -42,6 +43,7 @@ class Assets {
   static const String viewsLoginView = 'lib/features/auth/presentation/views/login_view.dart';
   static const String viewsOnBoardingView = 'lib/features/on_boarding/presentation/views/on_boarding_view.dart';
   static const String viewsSplashView = 'lib/features/splash/presentation/views/splash_view.dart';
+  static const String viewsWidgetsLoginViewBody = 'lib/features/auth/presentation/views/widgets/login_view_body.dart~';
   static const String viewsWidgetsOnBoardingPageView =
       'lib/features/on_boarding/presentation/views/widgets/on_boarding_page_view.dart~';
   static const String viewsWidgetsOnBoardingViewBody =
@@ -53,6 +55,8 @@ class Assets {
   static const String widgetsCustomAppBar = 'lib/core/widgets/custom_app_bar.dart';
   static const String widgetsCustomButton = 'lib/core/widgets/custom_button.dart';
   static const String widgetsCustomTextField = 'lib/core/widgets/custom_text_field.dart';
+  static const String widgetsDontHaveAccountWidget =
+      'lib/features/splash/presentation/views/widgets/dont_have_account_widget.dart';
   static const String widgetsLoginViewBody = 'lib/features/auth/presentation/views/widgets/login_view_body.dart';
   static const String widgetsOnBoardingPageView =
       'lib/features/on_boarding/presentation/views/widgets/on_boarding_page_view.dart';
