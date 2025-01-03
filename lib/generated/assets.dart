@@ -3,6 +3,7 @@ class Assets {
   Assets._();
 
   static const String coreHelperFunctionsOnGenerateRoutes = 'lib/core/helper_functions/on_generate_routes.dart~';
+  static const String coreWidgetsCustomAppBar = 'lib/core/widgets/custom_app_bar.dart~';
   static const String coreWidgetsCustomButton = 'lib/core/widgets/custom_button.dart~';
   static const String fontsCairoBold = 'assets/fonts/Cairo-Bold.ttf';
   static const String fontsCairoMedium = 'assets/fonts/Cairo-Medium.ttf';
@@ -51,6 +52,7 @@ class Assets {
       'lib/features/splash/presentation/views/widgets/splash_view_body.dart~';
   static const String widgetsCustomAppBar = 'lib/core/widgets/custom_app_bar.dart';
   static const String widgetsCustomButton = 'lib/core/widgets/custom_button.dart';
+  static const String widgetsCustomTextField = 'lib/core/widgets/custom_text_field.dart';
   static const String widgetsLoginViewBody = 'lib/features/auth/presentation/views/widgets/login_view_body.dart';
   static const String widgetsOnBoardingPageView =
       'lib/features/on_boarding/presentation/views/widgets/on_boarding_page_view.dart';
