@@ -6,13 +6,14 @@ class Assets {
   static const String coreWidgetsCustomAppBar = 'lib/core/widgets/custom_app_bar.dart~';
   static const String coreWidgetsCustomButton = 'lib/core/widgets/custom_button.dart~';
   static const String coreWidgetsCustomTextField = 'lib/core/widgets/custom_text_field.dart~';
+  static const String domainReposAuthRepo = 'lib/features/auth/domain/repos/auth_repo.dart~';
+  static const String entitesUserEntity = 'lib/features/auth/domain/entites/user_entity.dart';
   static const String fontsCairoBold = 'assets/fonts/Cairo-Bold.ttf';
   static const String fontsCairoMedium = 'assets/fonts/Cairo-Medium.ttf';
   static const String fontsCairoRegular = 'assets/fonts/Cairo-Regular.ttf';
   static const String fontsCairoSemiBold = 'assets/fonts/Cairo-SemiBold.ttf';
   static const String fruitsHubLibConstants = 'lib/constants.dart~';
   static const String fruitsHubLibFruitHub = 'lib/fruit_hub.dart~';
-  static const String fruitsHubLibMain = 'lib/main.dart~';
   static const String generatedAssets = 'lib/generated/assets.dart';
   static const String generatedL10n = 'lib/generated/l10n.dart';
   static const String helperFunctionsOnGenerateRoutes = 'lib/core/helper_functions/on_generate_routes.dart';
@@ -43,6 +44,7 @@ class Assets {
   static const String l10nIntlAr = 'lib/l10n/intl_ar.arb';
   static const String l10nIntlEn = 'lib/l10n/intl_en.arb';
   static const String libConstants = 'lib/constants.dart';
+  static const String libFirebaseOptions = 'lib/firebase_options.dart';
   static const String libFruitHub = 'lib/fruit_hub.dart';
   static const String libGeneratedAssets = 'lib/generated/assets.dart~';
   static const String libMain = 'lib/main.dart';
@@ -50,6 +52,7 @@ class Assets {
   static const String presentationViewsOnBoardingView =
       'lib/features/on_boarding/presentation/views/on_boarding_view.dart~';
   static const String presentationViewsSplashView = 'lib/features/splash/presentation/views/splash_view.dart~';
+  static const String reposAuthRepo = 'lib/features/auth/domain/repos/auth_repo.dart';
   static const String servicesSharedPreferencesSingleton = 'lib/core/services/shared_preferences_singleton.dart';
   static const String utilsAppColors = 'lib/core/utils/app_colors.dart';
   static const String utilsAppTextStyles = 'lib/core/utils/app_text_styles.dart';
