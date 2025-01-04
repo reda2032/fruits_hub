@@ -6,8 +6,10 @@ class Assets {
   static const String coreWidgetsCustomAppBar = 'lib/core/widgets/custom_app_bar.dart~';
   static const String coreWidgetsCustomButton = 'lib/core/widgets/custom_button.dart~';
   static const String coreWidgetsCustomTextField = 'lib/core/widgets/custom_text_field.dart~';
+  static const String domainEntitesUserEntity = 'lib/features/auth/domain/entites/user_entity.dart~';
   static const String domainReposAuthRepo = 'lib/features/auth/domain/repos/auth_repo.dart~';
   static const String entitesUserEntity = 'lib/features/auth/domain/entites/user_entity.dart';
+  static const String errorsFailures = 'lib/core/errors/failures.dart';
   static const String fontsCairoBold = 'assets/fonts/Cairo-Bold.ttf';
   static const String fontsCairoMedium = 'assets/fonts/Cairo-Medium.ttf';
   static const String fontsCairoRegular = 'assets/fonts/Cairo-Regular.ttf';
