@@ -53,6 +53,7 @@ class Assets {
   static const String libFruitHub = 'lib/fruit_hub.dart';
   static const String libGeneratedAssets = 'lib/generated/assets.dart~';
   static const String libMain = 'lib/main.dart';
+  static const String modelsUserModel = 'lib/features/auth/data/models/user_model.dart';
   static const String presentationViewsLoginView = 'lib/features/auth/presentation/views/login_view.dart~';
   static const String presentationViewsOnBoardingView =
       'lib/features/on_boarding/presentation/views/on_boarding_view.dart~';
