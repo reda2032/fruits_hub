@@ -55,6 +55,7 @@ class Assets {
   static const String utilsAppTextStyles = 'lib/core/utils/app_text_styles.dart';
   static const String viewsLoginView = 'lib/features/auth/presentation/views/login_view.dart';
   static const String viewsOnBoardingView = 'lib/features/on_boarding/presentation/views/on_boarding_view.dart';
+  static const String viewsSignupView = 'lib/features/auth/presentation/views/signup_view.dart';
   static const String viewsSplashView = 'lib/features/splash/presentation/views/splash_view.dart';
   static const String viewsWidgetsDontHaveAccountWidget =
       'lib/features/splash/presentation/views/widgets/dont_have_account_widget.dart~';
@@ -65,13 +66,17 @@ class Assets {
       'lib/features/on_boarding/presentation/views/widgets/on_boarding_view_body.dart~';
   static const String viewsWidgetsPageViewItem =
       'lib/features/on_boarding/presentation/views/widgets/page_view_item.dart~';
-  static const String viewsWidgetsSignupView = 'lib/features/auth/presentation/views/widgets/signup_view.dart~';
+  static const String viewsWidgetsSignupViewBody =
+      'lib/features/auth/presentation/views/widgets/signup_view_body.dart~';
   static const String viewsWidgetsSocialLoginButton =
       'lib/features/auth/presentation/views/widgets/social_login_button.dart~';
   static const String viewsWidgetsSplashViewBody =
       'lib/features/splash/presentation/views/widgets/splash_view_body.dart~';
+  static const String viewsWidgetsTermsAndConditions =
+      'lib/features/auth/presentation/views/widgets/terms_and_conditions.dart~';
   static const String widgetsCustomAppBar = 'lib/core/widgets/custom_app_bar.dart';
   static const String widgetsCustomButton = 'lib/core/widgets/custom_button.dart';
+  static const String widgetsCustomCheckBox = 'lib/features/auth/presentation/views/widgets/custom_check_box.dart';
   static const String widgetsCustomTextField = 'lib/core/widgets/custom_text_field.dart';
   static const String widgetsDontHaveAccountWidget =
       'lib/features/auth/presentation/views/widgets/dont_have_account_widget.dart';
@@ -82,9 +87,11 @@ class Assets {
       'lib/features/on_boarding/presentation/views/widgets/on_boarding_view_body.dart';
   static const String widgetsOrDivider = 'lib/features/auth/presentation/views/widgets/or_divider.dart';
   static const String widgetsPageViewItem = 'lib/features/on_boarding/presentation/views/widgets/page_view_item.dart';
-  static const String widgetsSignupView = 'lib/features/auth/presentation/views/widgets/signup_view.dart';
+  static const String widgetsSignupView = 'lib/features/auth/presentation/views/widgets/signup_view.dart~';
   static const String widgetsSignupViewBody = 'lib/features/auth/presentation/views/widgets/signup_view_body.dart';
   static const String widgetsSocialLoginButton =
       'lib/features/auth/presentation/views/widgets/social_login_button.dart';
   static const String widgetsSplashViewBody = 'lib/features/splash/presentation/views/widgets/splash_view_body.dart';
+  static const String widgetsTermsAndConditions =
+      'lib/features/auth/presentation/views/widgets/terms_and_conditions.dart';
 }
