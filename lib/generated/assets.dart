@@ -88,7 +88,7 @@ class Assets {
       'lib/features/auth/presentation/views/widgets/custom_check_box.dart~';
   static const String viewsWidgetsDontHaveAccountWidget =
       'lib/features/splash/presentation/views/widgets/dont_have_account_widget.dart~';
-  static const String viewsWidgetsLoginViewBody = 'lib/features/auth/presentation/views/widgets/login_view_body.dart~';
+  static const String viewsWidgetsLoginViewBody = 'lib/features/auth/presentation/views/widgets/signin_view_body.dart~';
   static const String viewsWidgetsOnBoardingPageView =
       'lib/features/on_boarding/presentation/views/widgets/on_boarding_page_view.dart~';
   static const String viewsWidgetsOnBoardingViewBody =
@@ -116,7 +116,7 @@ class Assets {
       'lib/features/auth/presentation/views/widgets/dont_have_account_widget.dart';
   static const String widgetsHaveAnAccountWidget =
       'lib/features/auth/presentation/views/widgets/have_an_account_widget.dart';
-  static const String widgetsLoginViewBody = 'lib/features/auth/presentation/views/widgets/login_view_body.dart';
+  static const String widgetsLoginViewBody = 'lib/features/auth/presentation/views/widgets/signin_view_body.dart';
   static const String widgetsOnBoardingPageView =
       'lib/features/on_boarding/presentation/views/widgets/on_boarding_page_view.dart';
   static const String widgetsOnBoardingViewBody =
