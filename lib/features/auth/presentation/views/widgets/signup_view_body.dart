@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:fruits_hub/core/helper_functions/build_error_bar.dart';
 import 'package:fruits_hub/core/widgets/custom_button.dart';
 import 'package:fruits_hub/core/widgets/custom_text_field.dart';
 import 'package:fruits_hub/core/widgets/password_field.dart';
@@ -20,6 +21,7 @@ class _SignupViewBodyState extends State<SignupViewBody> {
   final GlobalKey<FormState> formKey = GlobalKey<FormState>();
   AutovalidateMode autoValidateMode = AutovalidateMode.disabled;
   late String email, userName, password;
+  late bool isTermsAccepted = false;
 
   @override
   Widget build(BuildContext context) {
@@ -56,26 +58,27 @@ class _SignupViewBodyState extends State<SignupViewBody> {
                   password = value!;
                 },
               ),
-              /* CustomTextFormField(
-                onSaved: (value) {
-                  password = value!;
-                },
-                hintText: 'كلمة المرور ',
-                textInputType: TextInputType.visiblePassword,
-                obscureText: false,
-                suffixIcon: Icon(Icons.remove_red_eye),
-              ),*/
               const SizedBox(height: 16.0),
-              //
+              //  terms and conditions
               TermsAndConditionsWidget(
-                onChanged: (value) {},
+                onChanged: (value) {
+                  isTermsAccepted = value;
+                },
               ),
               const SizedBox(height: 30.0),
               CustomButton(
                 onPressed: () {
                   if (formKey.currentState!.validate()) {
                     formKey.currentState!.save();
-                    context.read<SignupCubit>().createUserWithEmailAndPassword(email, password, userName);
+                    if (isTermsAccepted) {
+                      context.read<SignupCubit>().createUserWithEmailAndPassword(
+                            email,
+                            password,
+                            userName,
+                          );
+                    } else {
+                      buildErrorBar(context, 'يجب عليك الموافقة على الشروط والإحكام');
+                    }
                   } else {
                     setState(() {
                       autoValidateMode = AutovalidateMode.always;
