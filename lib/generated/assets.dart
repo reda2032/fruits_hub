@@ -90,6 +90,10 @@ class Assets {
       'lib/features/on_boarding/presentation/views/widgets/on_boarding_view_body.dart~';
   static const String viewsWidgetsPageViewItem =
       'lib/features/on_boarding/presentation/views/widgets/page_view_item.dart~';
+  static const String viewsWidgetsSigninViewBodyBlocConsumer =
+      'lib/features/auth/presentation/views/widgets/signin_view_body_bloc_consumer.dart~';
+  static const String viewsWidgetsSignupViewBody =
+      'lib/features/auth/presentation/views/widgets/signup_view_body.dart~';
   static const String viewsWidgetsSignupViewBodyBlocConsumer =
       'lib/features/auth/presentation/views/widgets/signup_view_body_bloc_consumer.dart~';
   static const String viewsWidgetsSocialLoginButton =
@@ -114,6 +118,8 @@ class Assets {
   static const String widgetsOrDivider = 'lib/features/auth/presentation/views/widgets/or_divider.dart';
   static const String widgetsPageViewItem = 'lib/features/on_boarding/presentation/views/widgets/page_view_item.dart';
   static const String widgetsPasswordField = 'lib/core/widgets/password_field.dart';
+  static const String widgetsSigninViewBodyBlocConsumer =
+      'lib/features/auth/presentation/views/widgets/signin_view_body_bloc_consumer.dart';
   static const String widgetsSignupView = 'lib/features/auth/presentation/views/widgets/signup_view.dart~';
   static const String widgetsSignupViewBody = 'lib/features/auth/presentation/views/widgets/signup_view_body.dart';
   static const String widgetsSignupViewBodyBlocConsumer =
