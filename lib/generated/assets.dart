@@ -60,7 +60,7 @@ class Assets {
   static const String libGeneratedAssets = 'lib/generated/assets.dart~';
   static const String libMain = 'lib/main.dart';
   static const String modelsUserModel = 'lib/features/auth/data/models/user_model.dart';
-  static const String presentationViewsLoginView = 'lib/features/auth/presentation/views/login_view.dart~';
+  static const String presentationViewsLoginView = 'lib/features/auth/presentation/views/signin_view.dart~';
   static const String presentationViewsOnBoardingView =
       'lib/features/on_boarding/presentation/views/on_boarding_view.dart~';
   static const String presentationViewsSignupView = 'lib/features/auth/presentation/views/signup_view.dart~';
@@ -71,11 +71,13 @@ class Assets {
   static const String servicesFirebaseAuthService = 'lib/core/services/firebase_auth_service.dart';
   static const String servicesGetItService = 'lib/core/services/get_it_service.dart';
   static const String servicesSharedPreferencesSingleton = 'lib/core/services/shared_preferences_singleton.dart';
+  static const String signinCubitSigninCubit = 'lib/features/auth/presentation/cubits/signin_cubit/signin_cubit.dart';
+  static const String signinCubitSigninState = 'lib/features/auth/presentation/cubits/signin_cubit/signin_state.dart';
   static const String signupCubitsSignupCubit = 'lib/features/auth/presentation/cubits/signup_cubits/signup_cubit.dart';
   static const String signupCubitsSignupState = 'lib/features/auth/presentation/cubits/signup_cubits/signup_state.dart';
   static const String utilsAppColors = 'lib/core/utils/app_colors.dart';
   static const String utilsAppTextStyles = 'lib/core/utils/app_text_styles.dart';
-  static const String viewsLoginView = 'lib/features/auth/presentation/views/login_view.dart';
+  static const String viewsLoginView = 'lib/features/auth/presentation/views/signin_view.dart';
   static const String viewsOnBoardingView = 'lib/features/on_boarding/presentation/views/on_boarding_view.dart';
   static const String viewsSignupView = 'lib/features/auth/presentation/views/signup_view.dart';
   static const String viewsSplashView = 'lib/features/splash/presentation/views/splash_view.dart';
@@ -90,8 +92,6 @@ class Assets {
       'lib/features/on_boarding/presentation/views/widgets/on_boarding_view_body.dart~';
   static const String viewsWidgetsPageViewItem =
       'lib/features/on_boarding/presentation/views/widgets/page_view_item.dart~';
-  static const String viewsWidgetsSigninViewBodyBlocConsumer =
-      'lib/features/auth/presentation/views/widgets/signin_view_body_bloc_consumer.dart~';
   static const String viewsWidgetsSignupViewBody =
       'lib/features/auth/presentation/views/widgets/signup_view_body.dart~';
   static const String viewsWidgetsSignupViewBodyBlocConsumer =

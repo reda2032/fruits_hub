@@ -9,8 +9,8 @@ import 'package:fruits_hub/features/auth/presentation/views/widgets/or_divider.d
 import 'package:fruits_hub/features/auth/presentation/views/widgets/social_login_button.dart';
 import 'package:fruits_hub/generated/assets.dart';
 
-class LoginViewBody extends StatelessWidget {
-  const LoginViewBody({super.key});
+class SigninViewBody extends StatelessWidget {
+  const SigninViewBody({super.key});
 
   @override
   Widget build(BuildContext context) {
