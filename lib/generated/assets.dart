@@ -8,6 +8,8 @@ class Assets {
   static const String coreWidgetsCustomAppBar = 'lib/core/widgets/custom_app_bar.dart~';
   static const String coreWidgetsCustomButton = 'lib/core/widgets/custom_button.dart~';
   static const String coreWidgetsCustomTextField = 'lib/core/widgets/custom_text_field.dart~';
+  static const String cubitsSigninCubitSigninCubit =
+      'lib/features/auth/presentation/cubits/signin_cubit/signin_cubit.dart~';
   static const String cubitsSignupCubitsSignupCubit =
       'lib/features/auth/presentation/cubits/signup_cubits/signup_cubit.dart~';
   static const String dataModelsUserModel = 'lib/features/auth/data/models/user_model.dart~';
@@ -60,9 +62,9 @@ class Assets {
   static const String libGeneratedAssets = 'lib/generated/assets.dart~';
   static const String libMain = 'lib/main.dart';
   static const String modelsUserModel = 'lib/features/auth/data/models/user_model.dart';
-  static const String presentationViewsLoginView = 'lib/features/auth/presentation/views/signin_view.dart~';
   static const String presentationViewsOnBoardingView =
       'lib/features/on_boarding/presentation/views/on_boarding_view.dart~';
+  static const String presentationViewsSigninView = 'lib/features/auth/presentation/views/signin_view.dart~';
   static const String presentationViewsSignupView = 'lib/features/auth/presentation/views/signup_view.dart~';
   static const String presentationViewsSplashView = 'lib/features/splash/presentation/views/splash_view.dart~';
   static const String reposAuthRepo = 'lib/features/auth/domain/repos/auth_repo.dart';
@@ -77,8 +79,9 @@ class Assets {
   static const String signupCubitsSignupState = 'lib/features/auth/presentation/cubits/signup_cubits/signup_state.dart';
   static const String utilsAppColors = 'lib/core/utils/app_colors.dart';
   static const String utilsAppTextStyles = 'lib/core/utils/app_text_styles.dart';
-  static const String viewsLoginView = 'lib/features/auth/presentation/views/signin_view.dart';
+  static const String viewsLoginView = 'lib/features/auth/presentation/views/login_view.dart~';
   static const String viewsOnBoardingView = 'lib/features/on_boarding/presentation/views/on_boarding_view.dart';
+  static const String viewsSigninView = 'lib/features/auth/presentation/views/signin_view.dart';
   static const String viewsSignupView = 'lib/features/auth/presentation/views/signup_view.dart';
   static const String viewsSplashView = 'lib/features/splash/presentation/views/splash_view.dart';
   static const String viewsWidgetsCustomCheckBox =
@@ -92,6 +95,8 @@ class Assets {
       'lib/features/on_boarding/presentation/views/widgets/on_boarding_view_body.dart~';
   static const String viewsWidgetsPageViewItem =
       'lib/features/on_boarding/presentation/views/widgets/page_view_item.dart~';
+  static const String viewsWidgetsSigninViewBodyBlocConsumer =
+      'lib/features/auth/presentation/views/widgets/signin_view_body_bloc_consumer.dart~';
   static const String viewsWidgetsSignupViewBody =
       'lib/features/auth/presentation/views/widgets/signup_view_body.dart~';
   static const String viewsWidgetsSignupViewBodyBlocConsumer =
@@ -105,6 +110,7 @@ class Assets {
   static const String widgetsCustomAppBar = 'lib/core/widgets/custom_app_bar.dart';
   static const String widgetsCustomButton = 'lib/core/widgets/custom_button.dart';
   static const String widgetsCustomCheckBox = 'lib/features/auth/presentation/views/widgets/custom_check_box.dart';
+  static const String widgetsCustomProgressHud = 'lib/core/widgets/custom_progress_hud.dart';
   static const String widgetsCustomTextField = 'lib/core/widgets/custom_text_field.dart';
   static const String widgetsDontHaveAccountWidget =
       'lib/features/auth/presentation/views/widgets/dont_have_account_widget.dart';
