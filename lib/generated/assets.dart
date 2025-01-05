@@ -4,6 +4,7 @@ class Assets {
 
   static const String coreHelperFunctionsOnGenerateRoutes = 'lib/core/helper_functions/on_generate_routes.dart~';
   static const String coreServicesFirebaseAuthService = 'lib/core/services/firebase_auth_service.dart~';
+  static const String coreServicesGetItService = 'lib/core/services/get_it_service.dart~';
   static const String coreWidgetsCustomAppBar = 'lib/core/widgets/custom_app_bar.dart~';
   static const String coreWidgetsCustomButton = 'lib/core/widgets/custom_button.dart~';
   static const String coreWidgetsCustomTextField = 'lib/core/widgets/custom_text_field.dart~';
@@ -22,6 +23,7 @@ class Assets {
   static const String fontsCairoSemiBold = 'assets/fonts/Cairo-SemiBold.ttf';
   static const String fruitsHubLibConstants = 'lib/constants.dart~';
   static const String fruitsHubLibFruitHub = 'lib/fruit_hub.dart~';
+  static const String fruitsHubLibMain = 'lib/main.dart~';
   static const String generatedAssets = 'lib/generated/assets.dart';
   static const String generatedL10n = 'lib/generated/l10n.dart';
   static const String helperFunctionsOnGenerateRoutes = 'lib/core/helper_functions/on_generate_routes.dart';
@@ -111,6 +113,8 @@ class Assets {
   static const String widgetsPageViewItem = 'lib/features/on_boarding/presentation/views/widgets/page_view_item.dart';
   static const String widgetsSignupView = 'lib/features/auth/presentation/views/widgets/signup_view.dart~';
   static const String widgetsSignupViewBody = 'lib/features/auth/presentation/views/widgets/signup_view_body.dart';
+  static const String widgetsSignupViewBodyBlocConsumer =
+      'lib/features/auth/presentation/views/widgets/signup_view_body_bloc_consumer.dart';
   static const String widgetsSocialLoginButton =
       'lib/features/auth/presentation/views/widgets/social_login_button.dart';
   static const String widgetsSplashViewBody = 'lib/features/splash/presentation/views/widgets/splash_view_body.dart';
