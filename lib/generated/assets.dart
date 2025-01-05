@@ -26,6 +26,7 @@ class Assets {
   static const String fruitsHubLibMain = 'lib/main.dart~';
   static const String generatedAssets = 'lib/generated/assets.dart';
   static const String generatedL10n = 'lib/generated/l10n.dart';
+  static const String helperFunctionsBuildErrorBar = 'lib/core/helper_functions/build_error_bar.dart';
   static const String helperFunctionsOnGenerateRoutes = 'lib/core/helper_functions/on_generate_routes.dart';
   static const String imagesAppIcon = 'assets/images/app_icon.png';
   static const String imagesApplIcon = 'assets/images/appl_icon.svg';
@@ -66,6 +67,7 @@ class Assets {
   static const String presentationViewsSplashView = 'lib/features/splash/presentation/views/splash_view.dart~';
   static const String reposAuthRepo = 'lib/features/auth/domain/repos/auth_repo.dart';
   static const String reposAuthRepoImpl = 'lib/features/auth/data/repos/auth_repo_impl.dart';
+  static const String servicesCustomBlocObserver = 'lib/core/services/custom_bloc_observer.dart';
   static const String servicesFirebaseAuthService = 'lib/core/services/firebase_auth_service.dart';
   static const String servicesGetItService = 'lib/core/services/get_it_service.dart';
   static const String servicesSharedPreferencesSingleton = 'lib/core/services/shared_preferences_singleton.dart';
@@ -88,8 +90,8 @@ class Assets {
       'lib/features/on_boarding/presentation/views/widgets/on_boarding_view_body.dart~';
   static const String viewsWidgetsPageViewItem =
       'lib/features/on_boarding/presentation/views/widgets/page_view_item.dart~';
-  static const String viewsWidgetsSignupViewBody =
-      'lib/features/auth/presentation/views/widgets/signup_view_body.dart~';
+  static const String viewsWidgetsSignupViewBodyBlocConsumer =
+      'lib/features/auth/presentation/views/widgets/signup_view_body_bloc_consumer.dart~';
   static const String viewsWidgetsSocialLoginButton =
       'lib/features/auth/presentation/views/widgets/social_login_button.dart~';
   static const String viewsWidgetsSplashViewBody =
