@@ -9,6 +9,8 @@ void main() async {
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
+  // injector
+  //await setupInjector();
   await Prefs.init();
   runApp(const FruitHub());
 }

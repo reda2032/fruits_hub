@@ -7,6 +7,8 @@ class Assets {
   static const String coreWidgetsCustomAppBar = 'lib/core/widgets/custom_app_bar.dart~';
   static const String coreWidgetsCustomButton = 'lib/core/widgets/custom_button.dart~';
   static const String coreWidgetsCustomTextField = 'lib/core/widgets/custom_text_field.dart~';
+  static const String cubitsSignupCubitsSignupCubit =
+      'lib/features/auth/presentation/cubits/signup_cubits/signup_cubit.dart~';
   static const String dataModelsUserModel = 'lib/features/auth/data/models/user_model.dart~';
   static const String dataReposAuthRepoImpl = 'lib/features/auth/data/repos/auth_repo_impl.dart~';
   static const String domainEntitesUserEntity = 'lib/features/auth/domain/entites/user_entity.dart~';
@@ -58,10 +60,12 @@ class Assets {
   static const String presentationViewsLoginView = 'lib/features/auth/presentation/views/login_view.dart~';
   static const String presentationViewsOnBoardingView =
       'lib/features/on_boarding/presentation/views/on_boarding_view.dart~';
+  static const String presentationViewsSignupView = 'lib/features/auth/presentation/views/signup_view.dart~';
   static const String presentationViewsSplashView = 'lib/features/splash/presentation/views/splash_view.dart~';
   static const String reposAuthRepo = 'lib/features/auth/domain/repos/auth_repo.dart';
   static const String reposAuthRepoImpl = 'lib/features/auth/data/repos/auth_repo_impl.dart';
   static const String servicesFirebaseAuthService = 'lib/core/services/firebase_auth_service.dart';
+  static const String servicesGetItService = 'lib/core/services/get_it_service.dart';
   static const String servicesSharedPreferencesSingleton = 'lib/core/services/shared_preferences_singleton.dart';
   static const String signupCubitsSignupCubit = 'lib/features/auth/presentation/cubits/signup_cubits/signup_cubit.dart';
   static const String signupCubitsSignupState = 'lib/features/auth/presentation/cubits/signup_cubits/signup_state.dart';
