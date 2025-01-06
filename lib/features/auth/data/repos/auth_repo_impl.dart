@@ -13,6 +13,7 @@ class AuthRepoImpl extends AuthRepo {
 
   AuthRepoImpl(this.firebaseAuthService);
 
+  // create User With Email And Password
   @override
   Future<Either<Failure, UserEntity>> createUserWithEmailAndPassword(String email, String password, String name) async {
     try {
@@ -31,6 +32,7 @@ class AuthRepoImpl extends AuthRepo {
     }
   }
 
+  // signin With Email And Password
   @override
   Future<Either<Failure, UserEntity>> signinWithEmailAndPassword(String email, String password) async {
     try {
@@ -40,6 +42,26 @@ class AuthRepoImpl extends AuthRepo {
       );
     } on CustomException catch (e) {
       return left(ServerFailure(e.message));
+    } catch (e) {
+      log(
+        'Exception in AuthRepoImpl.createUserWithEmailAndPassword: ${e.toString()}',
+      );
+      return left(
+        ServerFailure(
+          'حدث خطأ ما. الرجاء المحاولة مرة اخرى.',
+        ),
+      );
+    }
+  }
+
+  // signin With Google
+  @override
+  Future<Either<Failure, UserEntity>> signinWithGoogle() async {
+    try {
+      var user = await firebaseAuthService.signInWithGoogle();
+      return Right(
+        UserModel.fromFirebaseUser(user),
+      );
     } catch (e) {
       log(
         'Exception in AuthRepoImpl.createUserWithEmailAndPassword: ${e.toString()}',
