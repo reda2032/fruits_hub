@@ -92,4 +92,25 @@ class AuthRepoImpl extends AuthRepo {
       );
     }
   }
+
+  // signin With Apple
+  @override
+  Future<Either<Failure, UserEntity>> signinWithApple() async {
+    try {
+      var user = await firebaseAuthService.signInWithApple();
+
+      var userEntity = UserModel.fromFirebaseUser(user);
+
+      return right(userEntity);
+    } catch (e) {
+      log(
+        'Exception in AuthRepoImpl.createUserWithEmailAndPassword: ${e.toString()}',
+      );
+      return left(
+        ServerFailure(
+          'حدث خطأ ما. الرجاء المحاولة مرة اخرى.',
+        ),
+      );
+    }
+  }
 }
