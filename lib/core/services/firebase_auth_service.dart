@@ -87,7 +87,7 @@ class FirebaseAuthService {
     // Firebase, the nonce in the id token returned by Apple, is expected to
     // match the sha256 hash of `rawNonce`.
     final rawNonce = generateNonce();
-    final nonce = sha256ofString(rawNonce);
+    // final nonce = sha256ofString(rawNonce);
 
     // Request credential for the currently signed in Apple account.
     final appleCredential = await SignInWithApple.getAppleIDCredential(
@@ -95,7 +95,7 @@ class FirebaseAuthService {
         AppleIDAuthorizationScopes.email,
         AppleIDAuthorizationScopes.fullName,
       ],
-      nonce: nonce,
+      //  nonce: nonce,
     );
 
     // Create an `OAuthCredential` from the credential returned by Apple.
