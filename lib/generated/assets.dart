@@ -4,11 +4,13 @@ class Assets {
 
   static const String coreHelperFunctionsOnGenerateRoutes = 'lib/core/helper_functions/on_generate_routes.dart~';
   static const String coreServicesFirebaseAuthService = 'lib/core/services/firebase_auth_service.dart~';
+  static const String coreServicesFirestoreService = 'lib/core/services/firestore_service.dart~';
   static const String coreServicesGetItService = 'lib/core/services/get_it_service.dart~';
   static const String coreWidgetsCustomAppBar = 'lib/core/widgets/custom_app_bar.dart~';
   static const String coreWidgetsCustomButton = 'lib/core/widgets/custom_button.dart~';
   static const String coreWidgetsCustomTextField = 'lib/core/widgets/custom_text_field.dart~';
-  static const String cubitsSignupCubitsSignupCubit = 'lib/features/auth/presentation/cubits/signup_cubits/signup_cubit.dart~';
+  static const String cubitsSignupCubitsSignupCubit =
+      'lib/features/auth/presentation/cubits/signup_cubits/signup_cubit.dart~';
   static const String dataModelsUserModel = 'lib/features/auth/data/models/user_model.dart~';
   static const String dataReposAuthRepoImpl = 'lib/features/auth/data/repos/auth_repo_impl.dart~';
   static const String domainEntitesUserEntity = 'lib/features/auth/domain/entites/user_entity.dart~';
@@ -58,14 +60,17 @@ class Assets {
   static const String libGeneratedAssets = 'lib/generated/assets.dart~';
   static const String libMain = 'lib/main.dart';
   static const String modelsUserModel = 'lib/features/auth/data/models/user_model.dart';
-  static const String presentationViewsOnBoardingView = 'lib/features/on_boarding/presentation/views/on_boarding_view.dart~';
+  static const String presentationViewsOnBoardingView =
+      'lib/features/on_boarding/presentation/views/on_boarding_view.dart~';
   static const String presentationViewsSigninView = 'lib/features/auth/presentation/views/signin_view.dart~';
   static const String presentationViewsSignupView = 'lib/features/auth/presentation/views/signup_view.dart~';
   static const String presentationViewsSplashView = 'lib/features/splash/presentation/views/splash_view.dart~';
   static const String reposAuthRepo = 'lib/features/auth/domain/repos/auth_repo.dart';
   static const String reposAuthRepoImpl = 'lib/features/auth/data/repos/auth_repo_impl.dart';
   static const String servicesCustomBlocObserver = 'lib/core/services/custom_bloc_observer.dart';
+  static const String servicesDataService = 'lib/core/services/data_service.dart';
   static const String servicesFirebaseAuthService = 'lib/core/services/firebase_auth_service.dart';
+  static const String servicesFirestoreService = 'lib/core/services/firestore_service.dart';
   static const String servicesGetItService = 'lib/core/services/get_it_service.dart';
   static const String servicesSharedPreferencesSingleton = 'lib/core/services/shared_preferences_singleton.dart';
   static const String signinCubitSigninCubit = 'lib/features/auth/presentation/cubits/signin_cubit/signin_cubit.dart';
@@ -79,37 +84,55 @@ class Assets {
   static const String viewsSigninView = 'lib/features/auth/presentation/views/signin_view.dart';
   static const String viewsSignupView = 'lib/features/auth/presentation/views/signup_view.dart';
   static const String viewsSplashView = 'lib/features/splash/presentation/views/splash_view.dart';
-  static const String viewsWidgetsCustomCheckBox = 'lib/features/auth/presentation/views/widgets/custom_check_box.dart~';
-  static const String viewsWidgetsDontHaveAccountWidget = 'lib/features/splash/presentation/views/widgets/dont_have_account_widget.dart~';
-  static const String viewsWidgetsOnBoardingPageView = 'lib/features/on_boarding/presentation/views/widgets/on_boarding_page_view.dart~';
-  static const String viewsWidgetsOnBoardingViewBody = 'lib/features/on_boarding/presentation/views/widgets/on_boarding_view_body.dart~';
-  static const String viewsWidgetsPageViewItem = 'lib/features/on_boarding/presentation/views/widgets/page_view_item.dart~';
-  static const String viewsWidgetsSigninViewBody = 'lib/features/auth/presentation/views/widgets/signin_view_body.dart~';
-  static const String viewsWidgetsSignupViewBody = 'lib/features/auth/presentation/views/widgets/signup_view_body.dart~';
-  static const String viewsWidgetsSignupViewBodyBlocConsumer = 'lib/features/auth/presentation/views/widgets/signup_view_body_bloc_consumer.dart~';
-  static const String viewsWidgetsSocialLoginButton = 'lib/features/auth/presentation/views/widgets/social_login_button.dart~';
-  static const String viewsWidgetsSplashViewBody = 'lib/features/splash/presentation/views/widgets/splash_view_body.dart~';
-  static const String viewsWidgetsTermsAndConditions = 'lib/features/auth/presentation/views/widgets/terms_and_conditions.dart~';
+  static const String viewsWidgetsCustomCheckBox =
+      'lib/features/auth/presentation/views/widgets/custom_check_box.dart~';
+  static const String viewsWidgetsDontHaveAccountWidget =
+      'lib/features/splash/presentation/views/widgets/dont_have_account_widget.dart~';
+  static const String viewsWidgetsOnBoardingPageView =
+      'lib/features/on_boarding/presentation/views/widgets/on_boarding_page_view.dart~';
+  static const String viewsWidgetsOnBoardingViewBody =
+      'lib/features/on_boarding/presentation/views/widgets/on_boarding_view_body.dart~';
+  static const String viewsWidgetsPageViewItem =
+      'lib/features/on_boarding/presentation/views/widgets/page_view_item.dart~';
+  static const String viewsWidgetsSigninViewBody =
+      'lib/features/auth/presentation/views/widgets/signin_view_body.dart~';
+  static const String viewsWidgetsSignupViewBody =
+      'lib/features/auth/presentation/views/widgets/signup_view_body.dart~';
+  static const String viewsWidgetsSignupViewBodyBlocConsumer =
+      'lib/features/auth/presentation/views/widgets/signup_view_body_bloc_consumer.dart~';
+  static const String viewsWidgetsSocialLoginButton =
+      'lib/features/auth/presentation/views/widgets/social_login_button.dart~';
+  static const String viewsWidgetsSplashViewBody =
+      'lib/features/splash/presentation/views/widgets/splash_view_body.dart~';
+  static const String viewsWidgetsTermsAndConditions =
+      'lib/features/auth/presentation/views/widgets/terms_and_conditions.dart~';
   static const String widgetsCustomAppBar = 'lib/core/widgets/custom_app_bar.dart';
   static const String widgetsCustomButton = 'lib/core/widgets/custom_button.dart';
   static const String widgetsCustomCheckBox = 'lib/features/auth/presentation/views/widgets/custom_check_box.dart';
   static const String widgetsCustomProgressHud = 'lib/core/widgets/custom_progress_hud.dart';
   static const String widgetsCustomTextField = 'lib/core/widgets/custom_text_field.dart';
-  static const String widgetsDontHaveAccountWidget = 'lib/features/auth/presentation/views/widgets/dont_have_account_widget.dart';
-  static const String widgetsHaveAnAccountWidget = 'lib/features/auth/presentation/views/widgets/have_an_account_widget.dart';
+  static const String widgetsDontHaveAccountWidget =
+      'lib/features/auth/presentation/views/widgets/dont_have_account_widget.dart';
+  static const String widgetsHaveAnAccountWidget =
+      'lib/features/auth/presentation/views/widgets/have_an_account_widget.dart';
   static const String widgetsLoginViewBody = 'lib/features/auth/presentation/views/widgets/login_view_body.dart~';
-  static const String widgetsOnBoardingPageView = 'lib/features/on_boarding/presentation/views/widgets/on_boarding_page_view.dart';
-  static const String widgetsOnBoardingViewBody = 'lib/features/on_boarding/presentation/views/widgets/on_boarding_view_body.dart';
+  static const String widgetsOnBoardingPageView =
+      'lib/features/on_boarding/presentation/views/widgets/on_boarding_page_view.dart';
+  static const String widgetsOnBoardingViewBody =
+      'lib/features/on_boarding/presentation/views/widgets/on_boarding_view_body.dart';
   static const String widgetsOrDivider = 'lib/features/auth/presentation/views/widgets/or_divider.dart';
   static const String widgetsPageViewItem = 'lib/features/on_boarding/presentation/views/widgets/page_view_item.dart';
   static const String widgetsPasswordField = 'lib/core/widgets/password_field.dart';
   static const String widgetsSigninViewBody = 'lib/features/auth/presentation/views/widgets/signin_view_body.dart';
-  static const String widgetsSigninViewBodyBlocConsumer = 'lib/features/auth/presentation/views/widgets/signin_view_body_bloc_consumer.dart';
+  static const String widgetsSigninViewBodyBlocConsumer =
+      'lib/features/auth/presentation/views/widgets/signin_view_body_bloc_consumer.dart';
   static const String widgetsSignupView = 'lib/features/auth/presentation/views/widgets/signup_view.dart~';
   static const String widgetsSignupViewBody = 'lib/features/auth/presentation/views/widgets/signup_view_body.dart';
-  static const String widgetsSignupViewBodyBlocConsumer = 'lib/features/auth/presentation/views/widgets/signup_view_body_bloc_consumer.dart';
-  static const String widgetsSocialLoginButton = 'lib/features/auth/presentation/views/widgets/social_login_button.dart';
+  static const String widgetsSignupViewBodyBlocConsumer =
+      'lib/features/auth/presentation/views/widgets/signup_view_body_bloc_consumer.dart';
+  static const String widgetsSocialLoginButton =
+      'lib/features/auth/presentation/views/widgets/social_login_button.dart';
   static const String widgetsSplashViewBody = 'lib/features/splash/presentation/views/widgets/splash_view_body.dart';
-  static const String widgetsTermsAndConditions = 'lib/features/auth/presentation/views/widgets/terms_and_conditions.dart';
-
+  static const String widgetsTermsAndConditions =
+      'lib/features/auth/presentation/views/widgets/terms_and_conditions.dart';
 }
